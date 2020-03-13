@@ -7,7 +7,11 @@ import React from "react";
 const SearchField = () => {
   return (
     <div>
-      <input type="text" />
+      <label htmlFor="">
+        <span />
+        <input type="text" />
+        <span />
+      </label>
     </div>
   );
 };
