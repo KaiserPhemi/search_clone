@@ -6,13 +6,11 @@ import React from "react";
  */
 const Doodle = () => {
   return (
-    <div>
-      <span>G</span>
-      <span>o</span>
-      <span>o</span>
-      <span>g</span>
-      <span>l</span>
-      <span>e</span>
+    <div className="doodle-container">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google"
+      />
     </div>
   );
 };
